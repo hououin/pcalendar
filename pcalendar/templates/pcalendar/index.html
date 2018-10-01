@@ -1,0 +1,13 @@
+{% extends "pcalendar/base.html" %}
+
+{% block content %}
+<p>weolcome to pCanlendar</p>
+<p>blablablablablablabla</p>
+
+{% for task in tasks %}
+<p>{{ task.task_name }}</p>
+<p>{{ task.task_date }}</p>
+
+{% endfor %}
+
+{% endblock %}
