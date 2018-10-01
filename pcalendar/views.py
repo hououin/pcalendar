@@ -8,3 +8,6 @@ def index(request):
     }
     return render(request, "pcalendar/index.html",context)
 
+def showtasks(request):
+    return render(request, "pcalendar/showtasks.html")
+
